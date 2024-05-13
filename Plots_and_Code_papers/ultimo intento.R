@@ -3,7 +3,7 @@ setwd("/Users/andresammx/OneDrive/Itzel")
 library(reshape)
 library(dplyr)
 library(ggplot2)
-
+#processing of the dataset
 #Creación del objeto base
 l1<-read.csv("lote1.csv", header=TRUE, sep=",", stringsAsFactors=TRUE)
 names(l1)
